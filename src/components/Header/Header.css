@@ -1,0 +1,33 @@
+header {
+  height: var(--header-height);
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+}
+header span,
+.notifications {
+  display: flex;
+}
+header span:hover,
+.notifications:hover {
+  cursor: pointer;
+}
+header .logo {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 600;
+
+  margin-left: 2rem;
+}
+.notifications {
+  margin-left: auto;
+}
